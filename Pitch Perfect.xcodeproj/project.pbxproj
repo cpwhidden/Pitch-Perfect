@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		532954AF1B058D8A009F51DF /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532954AE1B058D8A009F51DF /* PlaySoundsViewController.swift */; };
-		532954B11B0592FE009F51DF /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 532954B01B0592FE009F51DF /* movie_quote.mp3 */; };
 		534A591F1B0FAAE4008E6DDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534A591E1B0FAAE4008E6DDD /* Images.xcassets */; };
 		539D1EEF1B09471300BFF17A /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D1EEE1B09471300BFF17A /* RecordedAudio.swift */; };
 		53BC40D91B0299D300390925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC40D81B0299D300390925 /* AppDelegate.swift */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		532954AE1B058D8A009F51DF /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		532954B01B0592FE009F51DF /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		534A591E1B0FAAE4008E6DDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		539D1EEE1B09471300BFF17A /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		53BC40D31B0299D300390925 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +86,6 @@
 				53BC40DA1B0299D300390925 /* RecordSoundsViewController.swift */,
 				539D1EEE1B09471300BFF17A /* RecordedAudio.swift */,
 				532954AE1B058D8A009F51DF /* PlaySoundsViewController.swift */,
-				532954B01B0592FE009F51DF /* movie_quote.mp3 */,
 				534A591E1B0FAAE4008E6DDD /* Images.xcassets */,
 				53BC40E11B0299D300390925 /* LaunchScreen.xib */,
 				53BC40D61B0299D300390925 /* Supporting Files */,
@@ -205,7 +202,6 @@
 				53BC40DE1B0299D300390925 /* Main.storyboard in Resources */,
 				534A591F1B0FAAE4008E6DDD /* Images.xcassets in Resources */,
 				53BC40E31B0299D300390925 /* LaunchScreen.xib in Resources */,
-				532954B11B0592FE009F51DF /* movie_quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
