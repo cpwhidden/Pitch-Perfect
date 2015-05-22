@@ -23,6 +23,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Setup audio session for recording
         AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryRecord, withOptions: AVAudioSessionCategoryOptions.allZeros, error: nil)
         AVAudioSession.sharedInstance().setActive(true, error: nil)
     }
@@ -43,6 +44,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         pauseResumeButton.hidden = false
         stopButton.hidden = false
         
+        // Create path names for audio files
         let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask , true).last as! String
         let currentDateTime = NSDate()
         let dateFormatter = NSDateFormatter()
@@ -51,7 +53,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         let pathArray = [dirPath, recordingName]
         let fileURL = NSURL.fileURLWithPathComponents(pathArray)
         
-        
+        //Init recorder
         recorder = AVAudioRecorder(URL: fileURL, settings: nil, error: nil)
         if let _recorder = recorder {
             _recorder.delegate = self
@@ -66,6 +68,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func pauseResumeRecording(sender: AnyObject) {
+        // Toggle pause and unpause with image
         if isPaused {
             recorder?.record()
             isPaused = false
@@ -89,6 +92,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     func audioRecorderDidFinishRecording(recorder: AVAudioRecorder!, successfully flag: Bool) {
+        // When finished, create data structure and pass to player view controller
         if flag {
             recordedAudio = RecordedAudio(URL: recorder.url, title: recorder.url.lastPathComponent!)
             self.performSegueWithIdentifier("stopRecording", sender: recordedAudio)

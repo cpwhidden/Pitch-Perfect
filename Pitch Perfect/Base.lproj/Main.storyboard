@@ -126,16 +126,16 @@
                                 <exclude reference="sa5-Qg-3Jm"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="gzK-dF-Kx4"/>
+                                <exclude reference="Nmz-xN-jD9"/>
                                 <exclude reference="92V-cE-bAA"/>
                                 <exclude reference="ECO-99-QZ1"/>
                                 <exclude reference="ckE-q2-ADU"/>
                                 <exclude reference="mp2-Vz-zH7"/>
                                 <exclude reference="pTP-tw-gMg"/>
-                                <exclude reference="gzK-dF-Kx4"/>
+                                <exclude reference="yYa-dV-9Os"/>
                                 <exclude reference="1DF-3v-HsW"/>
                                 <exclude reference="qab-rb-eoS"/>
-                                <exclude reference="yYa-dV-9Os"/>
-                                <exclude reference="Nmz-xN-jD9"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -146,16 +146,16 @@
                                 <include reference="sa5-Qg-3Jm"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="gzK-dF-Kx4"/>
+                                <include reference="Nmz-xN-jD9"/>
                                 <include reference="92V-cE-bAA"/>
                                 <include reference="ECO-99-QZ1"/>
                                 <include reference="ckE-q2-ADU"/>
                                 <include reference="mp2-Vz-zH7"/>
                                 <include reference="pTP-tw-gMg"/>
-                                <include reference="gzK-dF-Kx4"/>
+                                <include reference="yYa-dV-9Os"/>
                                 <include reference="1DF-3v-HsW"/>
                                 <include reference="qab-rb-eoS"/>
-                                <include reference="yYa-dV-9Os"/>
-                                <include reference="Nmz-xN-jD9"/>
                             </mask>
                         </variation>
                     </view>
